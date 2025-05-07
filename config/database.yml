@@ -5,28 +5,28 @@
 # Development Environment
 development:
   adapter: postgresql
-  database: redmine_development
-  host: localhost
-  username: redmine_user
-  password: "your_password"
+  database: redmine_db_zaka
+  host: dpg-d0ddc0muk2gs73d09au0-a
+  username: redmine_db_zaka_user
+  password: "Vu1JYQwDK7NxAaYjRu871UWGYlWM03Nr"
   encoding: unicode
 
 # Test Environment
 test:
   adapter: postgresql
-  database: redmine_test
-  host: localhost
-  username: redmine_user
-  password: "your_password"
+  database: redmine_db_zaka
+  host: dpg-d0ddc0muk2gs73d09au0-a
+  username: redmine_db_zaka_user
+  password: "Vu1JYQwDK7NxAaYjRu871UWGYlWM03Nr"
   encoding: unicode
 
 # Production Environment
 production:
   adapter: postgresql
-  database: redmine_production
-  host: localhost
-  username: redmine_user
-  password: "your_password"
+  database: redmine_db_zaka
+  host: dpg-d0ddc0muk2gs73d09au0-a
+  username: redmine_db_zaka_user
+  password: "Vu1JYQwDK7NxAaYjRu871UWGYlWM03Nr"
   encoding: unicode
   pool: 5
   timeout: 5000
