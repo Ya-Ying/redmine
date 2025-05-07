@@ -19,7 +19,7 @@ gem 'rack', '>= 3.1.3'
 gem "stimulus-rails", "~> 1.3"
 gem "importmap-rails", "~> 2.0"
 gem 'commonmarker', '~> 2.3.0'
-gem 'pg'
+gem 'pg', '~> 1.5.3'
 
 #  Ruby Standard Gems
 gem 'csv', '~> 3.3.2'
